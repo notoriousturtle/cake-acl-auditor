@@ -60,7 +60,6 @@ if __name__ == '__main__':
     links = output.split("\n")[0:-2] #remove first 9 lines of output
     links = [e[3:] for e in links]
     links = [e.replace("  ","\t") for e in links]
-    links = [e.replace("  ","\t") for e in links]
 
     print("* Checking ACOs:")
     url = parent = child = subChild = subChild2 = ""
