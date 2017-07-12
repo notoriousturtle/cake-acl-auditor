@@ -4,8 +4,6 @@ Cake ARO/ACO ACL Auditor
 Gets a list of all ACOs, then checks to see whether or not the ARO (user or group) is allowed access.
 A list of allowed, and denied ACOs are returned.
 
-A quick and dirty script. 
-
 For CakePHP 3 applications.
 
 # Parameters:
