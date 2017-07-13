@@ -6,6 +6,9 @@ A list of allowed, and denied ACOs are returned.
 
 For CakePHP 3 applications.
 
+# Example Usage
+    ./check_acls.py -c Groups.1
+
 # Parameters:
 -c aro to check, such as Groups.1
 
