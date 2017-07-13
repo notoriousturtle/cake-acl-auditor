@@ -57,9 +57,9 @@ if __name__ == '__main__':
 
     output = re.sub(r"\[\d+\]", "", output) #remove [n] from lines
     output = output.split("\n",9)[9] #remove first 9 lines of output
-    links = output.split("\n")[0:-2] #remove first 9 lines of output
-    links = [e[3:] for e in links]
-    links = [e.replace("  ","\t") for e in links]
+    links = output.split("\n")[0:-2] #remove last 2 lines of output
+    links = [e[3:] for e in links] #remove the 3 spaces at the start of each
+    links = [e.replace("  ","\t") for e in links] #replace spaces with tabs
 
     print("* Checking ACOs:")
     url = parent = child = subChild = subChild2 = ""
